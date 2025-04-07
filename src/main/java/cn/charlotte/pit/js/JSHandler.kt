@@ -7,7 +7,6 @@ import cn.charlotte.pit.data.PlayerProfile
 import cn.charlotte.pit.enchantment.rarity.EnchantmentRarity
 import cn.charlotte.pit.enchantment.type.JSEnchantment
 import cn.charlotte.pit.enchantmentInt
-import cn.charlotte.pit.util.AddonUtil
 import cn.charlotte.pit.util.chat.CC
 import jdk.dynalink.beans.StaticClass
 import jdk.nashorn.api.scripting.ScriptObjectMirror
