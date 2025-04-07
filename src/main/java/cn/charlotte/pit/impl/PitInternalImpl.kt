@@ -301,10 +301,6 @@ object PitInternalImpl : PitInternalHook {
         return music
     }
 
-    override fun checkIsAddon(addon: String): Boolean {
-        return AddonUtil.check(addon)
-    }
-
     override fun getWaterMark(): String {
         return CC.translate(NewConfiguration.waterMark)
     }
