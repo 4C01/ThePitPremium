@@ -47,14 +47,14 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local_dir: Base/build/libs
+        local_dir: build/libs
         remote_dir: 4C01/ThePitPremium
     
 
     - name: Create Tag
       uses: softprops/action-gh-release@v1
       with:
-        files: Base/build/libs/ThePitPremium-${{env.VERSION}}.jar
+        files: build/libs/ThePitPremium-${{env.VERSION}}.jar
         generate_release_notes: true
         name: ${{env.VERSION}}
         tag_name: ${{env.VERSION}}
